@@ -21,3 +21,10 @@ National Ping-Tung University Collage of Computer Science
 
 - [Introduction](https://nptucsss.com/python/introduction)
 - [Variable](https://nptucsss.com/python/variable)
+
+## Lecture
+
+- [Python Introduction](https://hackmd.io/@NPTU-CS/H1tPSUkQu)
+- [Why Python](https://hackmd.io/@NPTU-CS/ryhsq81X_)
+- [Install Python](https://hackmd.io/@NPTU-CS/HJXpjGPNd)
+- [Output & Comment](https://hackmd.io/@NPTU-CS/rkkfBAyXd)
