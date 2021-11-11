@@ -1,0 +1,23 @@
+name: README
+
+on:
+  push:
+    branches: [ master ]
+  
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+    
+      - run: mkdir README
+      - run: mkdir README/ENGLISH README/CHINESE
+      - run: cp README.md README/ENGLISH/README.md
+      - run: cp CHINESE.md README/CHINESE/README.md
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.DEPLOY_KEY }}
+          publish_dir: ./README
+          publish_branch: main

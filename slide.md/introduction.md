@@ -6,7 +6,6 @@ output: ./introduction/index.html
 style: ../main.css
 --
 
-
 <h1 style="font-size: 72px">
 	Python - Introduct
 </h1>
@@ -62,6 +61,11 @@ style: ../main.css
 
 # Hello World!
 ## print('Hello World!')
+
+--
+
+<h1 style="font-size: 1.8em;">註解</h1>
+## # 註解內容(這裡面部會被python編譯)
 
 --
 

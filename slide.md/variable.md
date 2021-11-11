@@ -37,8 +37,6 @@ style: ../main.css
 	- 1, 2, 100, 1000, -10000 (整數)
 	- 3.14, -12 (小數)
 	- 2.99792458e8 (科學記號)
-	- True, False
-	- None
 
 --
 
@@ -55,6 +53,9 @@ style: ../main.css
 - 字串
 	- 'Hello World!'
 	- 很多個字元組成的
+- 其他
+	- True, False
+	- None
 
 --
 

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-  <title>Python - Basic</title>
+  <title>Python - Conditional</title>
   <style type="text/css">
     body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -382,6 +382,10 @@ blockquote:after {
 	clear: right;
 }
 
+code {
+	white-space: pre;
+}
+
   </style>
 </head>
 <body>
@@ -390,134 +394,127 @@ blockquote:after {
   </div>
 
   <div class="slide" id="slide-1">
-    <section class="slide-content"><h1 style="font-size: 72px">
-    Python - Variable
-</h1>
-
+    <section class="slide-content"><p><h1 style="font-size: 72px">
+    Python - Conditional
+</h1></p>
 <h2 id="-">資訊學院 / 咪路</h2>
 </section>
   </div>
   <div class="slide hidden" id="slide-2">
-    <section class="slide-content"><h3 id="-">什麼是變數？</h3>
-<p>指在電腦記憶體裏存在值的被命名的儲存空間。
-<img style="height:300px;margin: 20px auto;display: block" src="../images/variable-topic.jpg" /></p>
-</section>
+    <section class="slide-content"><h1 style="font-size: 1.6em">
+    我也能讓程式轉彎嗎？
+</h1></section>
   </div>
   <div class="slide hidden" id="slide-3">
-    <section class="slide-content"><h3 id="-">可以想像成....</h3>
-<p>一個盒子，裡面可以裝任何東西！</p>
-<p>並且在盒子上貼上一個標籤，幫他取名字。</p>
-<br/>
-<p>命名的規則：A~Z a~z 0~9 或是底線(&lowbar;)。</p>
-<p>不能數字開頭，不能是<a href="https://www.w3schools.com/python/python_ref_keywords.asp">保留字</a>。</p></section>
+    <section class="slide-content"><h3 id="if-">if ...</h3>
+<p><code>
+if (條件):
+  do something
+</code></p>
+</section>
   </div>
   <div class="slide hidden" id="slide-4">
-    <section class="slide-content"><h3 id="-">那麼盒子裡面可以裝什麼呢？</h3>
-<ul>
-<li>數字<ul>
-<li>1, 2, 100, 1000, -10000 (整數)</li>
-<li>3.14, -12 (小數)</li>
-<li>2.99792458e8 (科學記號)</li>
-</ul>
-</li>
-</ul>
+    <section class="slide-content"><h3 id="if-else-">if ... else ...</h3>
+<p><code>
+if (條件):
+  do something...
+else:
+  do something...
+</code></p>
 </section>
   </div>
   <div class="slide hidden" id="slide-5">
-    <section class="slide-content"><h3 id="-">那麼盒子裡面可以裝什麼呢？</h3>
+    <section class="slide-content"><h3 id="-">條件</h3>
 <ul>
-<li>字元<ul>
-<li>&#39;A&#39;, &#39;B&#39;, &#39;y&#39;, &#39;z&#39; (字母)</li>
-<li>&#39;0&#39;, &#39;1&#39;, &#39;3&#39; (數字字元)</li>
-<li>&#39;@&#39;, &#39;$&#39;, &#39;%&#39; (符號)</li>
-<li>&#39;\n&#39;, &#39;\t&#39; (特殊字元)</li>
-</ul>
-</li>
+<li>a == b</li>
+<li>1 &gt; 2</li>
+<li>3 &gt;= 4</li>
+<li>5 &lt; 6</li>
+<li>7 &lt;= 8</li>
+<li>9 != 0</li>
 </ul>
 </section>
   </div>
   <div class="slide hidden" id="slide-6">
-    <section class="slide-content"><h3 id="-">那麼盒子裡面可以裝什麼呢？</h3>
+    <section class="slide-content"><h3 id="practice">Practice</h3>
 <ul>
-<li>字串<ul>
-<li>&#39;Hello World!&#39;</li>
-<li>很多個字元組成的</li>
-</ul>
-</li>
-<li>其他<ul>
-<li>True, False</li>
-<li>None</li>
-</ul>
-</li>
+<li>使用者輸入一個數</li>
+<li>並且印出偶數或是奇數</li>
 </ul>
 </section>
   </div>
   <div class="slide hidden" id="slide-7">
-    <section class="slide-content"><p><h1 style="font-size: 1.6em;">設定/宣告 變數</h1></p>
-<h2 id="-">名稱 = 內容</h2>
-<h2 id="name-">name = &#39;咪路&#39;</h2>
+    <section class="slide-content"><h3 id="-">複合條件</h3>
+<ul>
+<li>and</li>
+<li>or</li>
+</ul>
+<p><code>
+number = 5
+if (number &gt; 0 and number &lt; 10):
+  print(&#39;0~5&#39;)
+</code></p>
 </section>
   </div>
   <div class="slide hidden" id="slide-8">
-    <section class="slide-content"><p><h1 style="font-size: 1.6em;">顯示變數裡的值</h1></p>
-<h2 id="print-name-">print(name)</h2>
+    <section class="slide-content"><h3 id="practice">Practice</h3>
+<ul>
+<li>輸入年紀與BMI</li>
+<li>如果成年以及體重適中，輸出 OK</li>
+<li>否則輸出 not OK</li>
+</ul>
+<p>PS: 體重適中(BMI: 18.5~24)</p>
 </section>
   </div>
   <div class="slide hidden" id="slide-9">
-    <section class="slide-content"><h3 id="-">基本的運算</h3>
-<ul>
-<li>加減法<ul>
-<li>1 + 2</li>
-<li>3 - 4</li>
-</ul>
-</li>
-<li>乘除<ul>
-<li>5 * 6</li>
-<li>7 / 8</li>
-<li>10 // 9</li>
-</ul>
-</li>
-</ul>
-</section>
+    <section class="slide-content"><h3 id="-">完整的身材判斷呢？</h3>
+<p style="line-height:.7em;">
+<code style="font-size:.6em;">
+if (BMI &lt; 18):
+  print(&#39;體重過輕&#39;)
+else:
+  if (BMI &gt;= 18 and BMI &lt;=24):
+    print(&#39;體重適中&#39;)
+  else:
+    if (BMI &gt; 24 and BMI &lt; 30):
+      print(&#39;輕度肥胖&#39;)
+    else:
+      if (BMI &gt;= 30 and BMI &lt;= 35):
+        print(&#39;中度肥胖&#39;)
+      else:
+        print(&#39;重度肥胖&#39;)
+</code></p></section>
   </div>
   <div class="slide hidden" id="slide-10">
-    <section class="slide-content"><h3 id="-">基本的運算</h3>
-<ul>
-<li>次方<ul>
-<li>2 ** 10</li>
-</ul>
-</li>
-<li>取餘數<ul>
-<li>9 % 5</li>
-</ul>
-</li>
-</ul>
-</section>
+    <section class="slide-content"><h3 id="if-elif-elif-else-">if ... elif ... elif ... else ...</h3>
+<p style="line-height:.7em;">
+<code style="font-size:.6em;">
+if (BMI &lt; 18):
+  print(&#39;體重過輕&#39;)
+elif (BMI &gt;= 18 and BMI &lt;=24):
+  print(&#39;體重適中&#39;)
+elif (BMI &gt; 24 and BMI &lt; 30):
+  print(&#39;輕度肥胖&#39;)
+elif (BMI &gt;= 30 and BMI &lt;= 35):
+  print(&#39;中度肥胖&#39;)
+else:
+  print(&#39;重度肥胖&#39;)
+</code></p></section>
   </div>
   <div class="slide hidden" id="slide-11">
-    <section class="slide-content"><h3 id="-">基本的運算</h3>
-<ul>
-<li>字串的串接<ul>
-<li>&#39;Hello&#39; + &#39;World&#39;</li>
-</ul>
-</li>
-<li>字串乘法<ul>
-<li>&#39;Apple&#39; * 3</li>
-</ul>
-</li>
-</ul>
-</section>
-  </div>
-  <div class="slide hidden" id="slide-12">
     <section class="slide-content"><h3 id="practice">Practice</h3>
 <ul>
-<li>在一個變數當中存入自己的名字</li>
-<li>並且輸出 Hi, OOO!</li>
-<li>其中 OOO 是變數裡的值</li>
+<li>請使用者輸入一個分數</li>
+<li>90 ~ 100 輸出 A</li>
+<li>80 ~ 89 輸出 B</li>
+<li>70 ~ 79 輸出 C</li>
+<li>60 ~ 69 輸出 D</li>
+<li>0 ~ 59 輸出 F</li>
+<li>不是正常 0 ~ 100 輸出 Error</li>
 </ul>
 </section>
   </div>
-  <div class="slide hidden author-slide" id="slide-13">
+  <div class="slide hidden author-slide" id="slide-12">
     <section class="slide-content"><div class="author">
   <h1 class="name">咪路</h1>
     <h3 class="email">
