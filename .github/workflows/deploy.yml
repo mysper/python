@@ -18,9 +18,7 @@ jobs:
       - name: Generate Slide
         run: cleaver slide.md/*
       - name: Clean files
-        run: rm -rf slide.md
-        run: rm README.md
-        run: rm *.css
+        run: rm -rf slide.md || rm README.md || rm *.css
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
