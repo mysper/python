@@ -21,6 +21,8 @@
 
 - [簡介](https://nptucsss.com/python/introduction)
 - [變數](https://nptucsss.com/python/variable)
+- [使用者輸入](https://nptucsss.com/python/input)
+- [條件句](https://nptucsss.com/python/conditional)
 
 ## 講義
 

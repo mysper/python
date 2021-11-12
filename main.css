@@ -23,3 +23,7 @@ blockquote:after {
 	content: "";
 	clear: right;
 }
+
+code {
+	white-space: pre;
+}
