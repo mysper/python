@@ -26,4 +26,4 @@
 
 ## 講義
 
-- [簡介](https://hackmd.io/@nptucsss/HyE-Qg2DF)
+- <a href="https://hackmd.io/@nptucsss/HyE-Qg2DF" target="_blank">簡介</a>
