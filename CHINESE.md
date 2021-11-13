@@ -2,7 +2,7 @@
 
 
 <div align="center">
-<img src="./images/ccs_logo.png" alt="Logo" width="80" height="80" />
+<img src="http://nptucsss.com/python/images/ccs_logo.png" alt="Logo" width="80" height="80" />
 <h3 align="center">Python 基礎課程課堂簡報</h3>
 
 <p align="center">
