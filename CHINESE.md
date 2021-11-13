@@ -26,4 +26,4 @@
 
 ## 講義
 
-- [歷史與理念](https://hackmd.io/@nptucsss/HyE-Qg2DF)
+- [簡介](https://hackmd.io/@nptucsss/HyE-Qg2DF)
