@@ -11,7 +11,7 @@ National Ping-Tung University Collage of Computer Science
 <br/>
 <a href="https://github.com/NPTUCSSS/python/tree/main/CHINESE">中文</a>
 		·
- <a href="https://github.com/NPTUCSSS/python/tree/main/English">English</a>
+ <a href="https://github.com/NPTUCSSS/python/tree/main/ENGLISH">English</a>
 		·
 <a href="https://ccs.nptu.edu.tw/index.php?Lang=en">official website</a>
 </p>
