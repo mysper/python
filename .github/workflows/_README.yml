@@ -12,8 +12,9 @@ jobs:
     
       - run: mkdir README
       - run: mkdir README/ENGLISH README/CHINESE
-      - run: cp README.md README/ENGLISH/README.md
+      - run: cp ENGLISH.md README/ENGLISH/README.md
       - run: cp CHINESE.md README/CHINESE/README.md
+      - run: cp README.md README/
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
