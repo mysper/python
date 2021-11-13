@@ -9,7 +9,7 @@
 國立屏東大學 資訊學院
 <br/>
 <br/>
-<a href="https://github.com/NPTUCSSS/python/blob/master/README.md">English</a>
+<a href="https://github.com/NPTUCSSS/python/tree/main/ENGLISH">English</a>
 		·
 <a href="https://ccs.nptu.edu.tw/index.php">官網</a>
 		·
