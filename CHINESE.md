@@ -26,7 +26,4 @@
 
 ## 講義
 
-- [歷史與理念](https://hackmd.io/@NPTU-CS/H1tPSUkQu)
-- [為什麼是python](https://hackmd.io/@NPTU-CS/ryhsq81X_)
-- [環境架設](https://hackmd.io/@NPTU-CS/HJXpjGPNd)
-- [簡單的輸出與註解](https://hackmd.io/@NPTU-CS/rkkfBAyXd)
+- [歷史與理念](https://hackmd.io/@nptucsss/HyE-Qg2DF)
