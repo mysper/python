@@ -2,7 +2,7 @@
 
 
 <div align="center">
-<img src="./images/ccs_logo.png" alt="Logo" width="80" height="80" />
+<img src="http://nptucsss.com/python/images/ccs_logo.png" alt="Logo" width="80" height="80" />
 <h3 align="center">Python Course Slide</h3>
 
 <p align="center">
