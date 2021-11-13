@@ -26,7 +26,4 @@ National Ping-Tung University Collage of Computer Science
 
 ## Lecture
 
-- [Python Introduction](https://hackmd.io/@NPTU-CS/H1tPSUkQu)
-- [Why Python](https://hackmd.io/@NPTU-CS/ryhsq81X_)
-- [Install Python](https://hackmd.io/@NPTU-CS/HJXpjGPNd)
-- [Output & Comment](https://hackmd.io/@NPTU-CS/rkkfBAyXd)
+- [Python Introduction](https://hackmd.io/@nptucsss/HyE-Qg2DF)
