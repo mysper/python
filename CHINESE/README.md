@@ -26,6 +26,6 @@
 
 ## 講義
 
-- [簡介](https://hackmd.io/@nptucsss/HyE-Qg2DF")
+- [簡介](https://hackmd.io/@nptucsss/HyE-Qg2DF)
 - [環境架設](https://hackmd.io/@nptucsss/ry2gVNpPK)
 - [簡單輸出＆註解](https://hackmd.io/@nptucsss/rJHPSETDY)
