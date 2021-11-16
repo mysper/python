@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-  <title>Python - Basic</title>
+  <title>Python - Variable</title>
   <style type="text/css">
     body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -382,6 +382,10 @@ blockquote:after {
 	clear: right;
 }
 
+code {
+	white-space: pre;
+}
+
   </style>
 </head>
 <body>
@@ -398,73 +402,14 @@ blockquote:after {
 </section>
   </div>
   <div class="slide hidden" id="slide-2">
-    <section class="slide-content"><h3 id="-">什麼是變數？</h3>
-<p>指在電腦記憶體裏存在值的被命名的儲存空間。
-<img style="height:300px;margin: 20px auto;display: block" src="../images/variable-topic.jpg" /></p>
+    <section class="slide-content"><p><h1 style="font-size: 1.6em">
+    數字
+</h1></p>
+<h2 id="-">整數 / 小數</h2>
 </section>
   </div>
   <div class="slide hidden" id="slide-3">
-    <section class="slide-content"><h3 id="-">可以想像成....</h3>
-<p>一個盒子，裡面可以裝任何東西！</p>
-<p>並且在盒子上貼上一個標籤，幫他取名字。</p>
-<br/>
-<p>命名的規則：A~Z a~z 0~9 或是底線(&lowbar;)。</p>
-<p>不能數字開頭，不能是<a href="https://www.w3schools.com/python/python_ref_keywords.asp">保留字</a>。</p></section>
-  </div>
-  <div class="slide hidden" id="slide-4">
-    <section class="slide-content"><h3 id="-">那麼盒子裡面可以裝什麼呢？</h3>
-<ul>
-<li>數字<ul>
-<li>1, 2, 100, 1000, -10000 (整數)</li>
-<li>3.14, -12 (小數)</li>
-<li>2.99792458e8 (科學記號)</li>
-</ul>
-</li>
-</ul>
-</section>
-  </div>
-  <div class="slide hidden" id="slide-5">
-    <section class="slide-content"><h3 id="-">那麼盒子裡面可以裝什麼呢？</h3>
-<ul>
-<li>字元<ul>
-<li>&#39;A&#39;, &#39;B&#39;, &#39;y&#39;, &#39;z&#39; (字母)</li>
-<li>&#39;0&#39;, &#39;1&#39;, &#39;3&#39; (數字字元)</li>
-<li>&#39;@&#39;, &#39;$&#39;, &#39;%&#39; (符號)</li>
-<li>&#39;\n&#39;, &#39;\t&#39; (特殊字元)</li>
-</ul>
-</li>
-</ul>
-</section>
-  </div>
-  <div class="slide hidden" id="slide-6">
-    <section class="slide-content"><h3 id="-">那麼盒子裡面可以裝什麼呢？</h3>
-<ul>
-<li>字串<ul>
-<li>&#39;Hello World!&#39;</li>
-<li>很多個字元組成的</li>
-</ul>
-</li>
-<li>其他<ul>
-<li>True, False</li>
-<li>None</li>
-</ul>
-</li>
-</ul>
-</section>
-  </div>
-  <div class="slide hidden" id="slide-7">
-    <section class="slide-content"><p><h1 style="font-size: 1.6em;">設定/宣告 變數</h1></p>
-<h2 id="-">名稱 = 內容</h2>
-<h2 id="name-">name = &#39;咪路&#39;</h2>
-</section>
-  </div>
-  <div class="slide hidden" id="slide-8">
-    <section class="slide-content"><p><h1 style="font-size: 1.6em;">顯示變數裡的值</h1></p>
-<h2 id="print-name-">print(name)</h2>
-</section>
-  </div>
-  <div class="slide hidden" id="slide-9">
-    <section class="slide-content"><h3 id="-">基本的運算</h3>
+    <section class="slide-content"><h3 id="-">數字的基本運算</h3>
 <ul>
 <li>加減法<ul>
 <li>1 + 2</li>
@@ -480,8 +425,8 @@ blockquote:after {
 </ul>
 </section>
   </div>
-  <div class="slide hidden" id="slide-10">
-    <section class="slide-content"><h3 id="-">基本的運算</h3>
+  <div class="slide hidden" id="slide-4">
+    <section class="slide-content"><h3 id="-">數字的基本的運算</h3>
 <ul>
 <li>次方<ul>
 <li>2 ** 10</li>
@@ -494,7 +439,24 @@ blockquote:after {
 </ul>
 </section>
   </div>
-  <div class="slide hidden" id="slide-11">
+  <div class="slide hidden" id="slide-5">
+    <section class="slide-content"><h3 id="example">Example</h3>
+<ul>
+<li>print(2 ** 10)</li>
+<li>print(2 ** 10.0)</li>
+<li>print(6 / 2)</li>
+<li>print(6 // 2))</li>
+</ul>
+<p>What&#39;s different?</p></section>
+  </div>
+  <div class="slide hidden" id="slide-6">
+    <section class="slide-content"><p><h1 style="font-size: 1.6em">
+    字串
+</h1></p>
+<h2 id="-string-or-string">&#39;String&#39; or &quot;String&quot;</h2>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-7">
     <section class="slide-content"><h3 id="-">基本的運算</h3>
 <ul>
 <li>字串的串接<ul>
@@ -508,7 +470,80 @@ blockquote:after {
 </ul>
 </section>
   </div>
+  <div class="slide hidden" id="slide-8">
+    <section class="slide-content"><h3 id="example">Example</h3>
+<ul>
+<li>print(&#39;Hello&#39; + &#39; &#39; + &#39;Python!&#39;)</li>
+<li>print(&#39;Python! &#39; * 3)</li>
+</ul>
+<p>How can i print <mark> I&#39;m python. </mark></p></section>
+  </div>
+  <div class="slide hidden" id="slide-9">
+    <section class="slide-content"><p><h1 style="font-size: 1.6em">
+    跳脫字元
+</h1></p>
+<h2 id="-">特殊字元 \&#39;</h2>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-10">
+    <section class="slide-content"><h3 id="example">Example</h3>
+<ul>
+<li>print(&#39;I\&#39;m Python!&#39;)
+<table border="1" style="float: right;" cellpadding="10">
+<tr><td>\&#39;</td><td>單引號</td></tr>
+<tr><td>\&quot;</td><td>雙引號</td></tr>
+<tr><td>\n</td><td>換行符號</td></tr>
+<tr><td>\t</td><td>水平 tab 鍵</td></tr>
+<tr><td>\v</td><td>垂直 tab 鍵</td></tr>
+<tr><td>\b</td><td>退格鍵</td></tr>
+</table><p><a href="https://www.w3schools.com/python/gloss_python_escape_characters.asp">more</a></p></li>
+</ul>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-11">
+    <section class="slide-content"><h1 style="font-size: 1.6em">
+    變數
+</h1></section>
+  </div>
   <div class="slide hidden" id="slide-12">
+    <section class="slide-content"><h3 id="-">什麼是變數？</h3>
+<p>指在電腦記憶體裏存在值的被命名的儲存空間。
+<img style="height:300px;margin: 20px auto;display: block" src="../images/variable-topic.jpg" /></p>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-13">
+    <section class="slide-content"><h3 id="-">可以想像成....</h3>
+<p>一個盒子，裡面可以裝任何東西！</p>
+<p>並且在盒子上貼上一個標籤，幫他取名字。</p>
+<br/>
+<p>命名的規則：A~Z a~z 0~9 或是底線(&lowbar;)。</p>
+<p>不能數字開頭，不能是<a href="https://www.w3schools.com/python/python_ref_keywords.asp">保留字</a>。</p></section>
+  </div>
+  <div class="slide hidden" id="slide-14">
+    <section class="slide-content"><h3 id="-">那麼盒子裡面可以裝什麼呢？</h3>
+<ul>
+<li>數字</li>
+<li>字串</li>
+<li>其他<ul>
+<li>True, False</li>
+<li>None</li>
+</ul>
+</li>
+</ul>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-15">
+    <section class="slide-content"><p><h1 style="font-size: 1.6em;">設定/宣告 變數</h1></p>
+<h2 id="-">名稱 = 內容</h2>
+<h2 id="name-">name = &#39;咪路&#39;</h2>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-16">
+    <section class="slide-content"><p><h1 style="font-size: 1.6em;">顯示變數裡的值</h1></p>
+<h2 id="print-name-">print(name)</h2>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-17">
     <section class="slide-content"><h3 id="practice">Practice</h3>
 <ul>
 <li>在一個變數當中存入自己的名字</li>
@@ -517,7 +552,7 @@ blockquote:after {
 </ul>
 </section>
   </div>
-  <div class="slide hidden author-slide" id="slide-13">
+  <div class="slide hidden author-slide" id="slide-18">
     <section class="slide-content"><div class="author">
   <h1 class="name">咪路</h1>
     <h3 class="email">
