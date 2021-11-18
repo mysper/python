@@ -35,7 +35,7 @@ Thu Nov 11, 2021 10:29:00 GMT+0800
 
 ## Contact us
 
-- Speaker: 咪路 &lt;mail@mirumo.org&gt;
+Speaker: 咪路 &lt;mail@mirumo.org&gt;
 
 ## Slide
 
