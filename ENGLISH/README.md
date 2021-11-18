@@ -22,6 +22,7 @@ National Ping-Tung University Collage of Computer Science
 - [Introduction](https://nptucsss.com/python/introduction)
 - [Variable](https://nptucsss.com/python/variable)
 - [User Input](https://nptucsss.com/python/input)
+- [Advanced Output](https://nptucsss.com/python/advanced-output))
 - [Conditional](https://nptucsss.com/python/conditional)
 
 ## Lecture
