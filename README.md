@@ -19,6 +19,17 @@ National Ping-Tung University Collage of Computer Science
 
 ## Announcement
 
+Fri Nov 19 2021 09:55:00 GMT0+0800
+> 錯誤更正
+> 1. variable#10 table
+> -) \\
+> +) \\\\
+> 2. variable#17
+> -) age = 22
+> +) age = '22'
+> 3. advanced-output title
+> Basic -> Advanced Output
+
 Thu Nov 11, 2021 10:29:00 GMT+0800
 >同學，您好：
 >
