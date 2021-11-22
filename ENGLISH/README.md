@@ -24,6 +24,7 @@ National Ping-Tung University Collage of Computer Science
 - [User Input](https://nptucsss.com/python/input)
 - [Advanced Output](https://nptucsss.com/python/advanced-output)
 - [Conditional](https://nptucsss.com/python/conditional)
+- [Data Structure](https://nptucsss.com/python/data-structure/)
 
 ## Lecture
 

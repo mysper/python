@@ -24,6 +24,7 @@
 - [使用者輸入](https://nptucsss.com/python/input)
 - [進階輸出](https://nptucsss.com/python/advanced-output)
 - [條件句](https://nptucsss.com/python/conditional)
+- [資料結構](https://nptucsss.com/python/data-structure)
 
 ## 講義
 
