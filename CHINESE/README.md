@@ -25,6 +25,7 @@
 - [進階輸出](https://nptucsss.com/python/advanced-output)
 - [條件句](https://nptucsss.com/python/conditional)
 - [資料結構(1)](https://nptucsss.com/python/data-structure)
+- [迴圈](https://nptucsss.com/python/loops)
 
 ## 講義
 
@@ -35,6 +36,7 @@
 - [進階的輸出](https://hackmd.io/@nptucsss/S1go3B7uF)
 - [條件句](https://hackmd.io/@nptucsss/r1_r-g9_t)
 - [資料結構(1)](https://hackmd.io/@nptucsss/H1RjVod_K)
+- [迴圈](https://hackmd.io/@nptucsss/ryFmeLj_Y)
 
 ## 練習題
 
