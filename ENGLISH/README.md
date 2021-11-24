@@ -24,7 +24,7 @@ National Ping-Tung University Collage of Computer Science
 - [User Input](https://nptucsss.com/python/input)
 - [Advanced Output](https://nptucsss.com/python/advanced-output)
 - [Conditional](https://nptucsss.com/python/conditional)
-- [Data Structure](https://nptucsss.com/python/data-structure/)
+- [Data Structure(1)](https://nptucsss.com/python/data-structure/)
 
 ## Lecture
 
@@ -33,7 +33,10 @@ National Ping-Tung University Collage of Computer Science
 - [Sample Output & Commend](https://hackmd.io/@nptucsss/rJHPSETDY)
 - [User Input](https://hackmd.io/@nptucsss/HkPvhNmuF)
 - [Advanced Output](https://hackmd.io/@nptucsss/S1go3B7uF)
+- [Conditional](https://hackmd.io/@nptucsss/r1_r-g9_t)
+- [Data Structure(1)](https://hackmd.io/@nptucsss/H1RjVod_K)
 
 ## Practice
 
 - [1118](https://hackmd.io/@nptucsss/SJOR04XuF)
+- [1125](https://hackmd.io/@nptucsss/r1xjZYPOY)]

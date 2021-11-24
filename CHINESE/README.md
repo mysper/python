@@ -24,7 +24,7 @@
 - [使用者輸入](https://nptucsss.com/python/input)
 - [進階輸出](https://nptucsss.com/python/advanced-output)
 - [條件句](https://nptucsss.com/python/conditional)
-- [資料結構](https://nptucsss.com/python/data-structure)
+- [資料結構(1)](https://nptucsss.com/python/data-structure)
 
 ## 講義
 
@@ -33,7 +33,10 @@
 - [簡單輸出＆註解](https://hackmd.io/@nptucsss/rJHPSETDY)
 - [使用者輸入](https://hackmd.io/@nptucsss/HkPvhNmuF)
 - [進階的輸出](https://hackmd.io/@nptucsss/S1go3B7uF)
+- [條件句](https://hackmd.io/@nptucsss/r1_r-g9_t)
+- [資料結構(1)](https://hackmd.io/@nptucsss/H1RjVod_K)
 
 ## 練習題
 
 - [1118](https://hackmd.io/@nptucsss/SJOR04XuF)
+- [1125](https://hackmd.io/@nptucsss/r1xjZYPOY)
